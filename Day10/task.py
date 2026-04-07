@@ -1,0 +1,22 @@
+# # Convert name in title case
+#
+# def format_name(f_name, l_name):
+#     formated_f_name = f_name.title()
+#     formated_l_name = l_name.title()
+#
+#     print(f"{formated_f_name} {formated_l_name}")
+#
+# format_name("smit","gadhiya")
+
+
+def function_1(text):
+    return text + text
+
+def function_2(text):
+    return text.title()
+
+output1 = function_2(function_1("heLLo"))
+print(output1)
+
+output2 = function_2("hello")
+print(output2)
